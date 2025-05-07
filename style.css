@@ -655,7 +655,7 @@ header .search-bar-container label:hover{
     top:100%; right:0; left: 0;
     background: #333;
     border-top: .1rem solid rgba(255,255,255,.2);
-    padding:1rem 2rem;
+    text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
@@ -686,5 +686,7 @@ header .search-bar-container label:hover{
   .contact .row form .inputBox input{
     width:100%;
   }
-
+body{
+  overflow: hidden;
+}
 }
